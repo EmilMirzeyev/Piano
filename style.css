@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.btns {
+    position: relative;
+}
+
+.btns > button {
+    background-color: #fff;
+    height: 200px;
+    width: 50px;
+    border: 1px solid ;
+    outline: none;
+    padding-top: 30%;
+}
+
+.sharp_btns {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sharp_btns > button {
+    background-color: #000;
+    height: 125px;
+    width: 30px;
+    border: 1px solid ;
+    outline: none;
+    padding-top: 20%;
+    color: #fff;
+}
+
+.sharp_btns > button:nth-child(1) {
+    transform: translateX(35px);
+}
+.sharp_btns > button:nth-child(2) {
+    transform: translateX(57px);
+}
+.sharp_btns > button:nth-child(3) {
+    transform: translateX(130px);
+}
+.sharp_btns > button:nth-child(4) {
+    transform: translateX(150px);
+}
+.sharp_btns > button:nth-child(5) {
+    transform: translateX(170px);
+}
